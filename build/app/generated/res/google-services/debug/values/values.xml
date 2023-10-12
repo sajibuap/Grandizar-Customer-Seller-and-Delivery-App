@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">922761358583-o17fjhibfmrko1tj631f4r6rvriltl12.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">922761358583</string>
+    <string name="google_api_key" translatable="false">AIzaSyArdQT61kV2orXPWnnPkTrGmmXmz3IQrY8</string>
+    <string name="google_app_id" translatable="false">1:922761358583:android:4a803bcc0c330563c977f2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyArdQT61kV2orXPWnnPkTrGmmXmz3IQrY8</string>
+    <string name="google_storage_bucket" translatable="false">grandizar-customer.appspot.com</string>
+    <string name="project_id" translatable="false">grandizar-customer</string>
+</resources>

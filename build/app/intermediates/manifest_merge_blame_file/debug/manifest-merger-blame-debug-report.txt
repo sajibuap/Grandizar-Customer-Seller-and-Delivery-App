@@ -1,0 +1,251 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mycompany.grandizarcustomerv2"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:4:5-66
+14-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:6:5-78
+15-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:6:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+16-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:7:5-80
+16-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <permission
+29-->[androidx.core:core:1.10.1] C:\Users\Sajib\.gradle\caches\transforms-3\1c04dad332f709826652ca3411164d6d\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+30        android:name="com.mycompany.grandizarcustomerv2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.10.1] C:\Users\Sajib\.gradle\caches\transforms-3\1c04dad332f709826652ca3411164d6d\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.10.1] C:\Users\Sajib\.gradle\caches\transforms-3\1c04dad332f709826652ca3411164d6d\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.mycompany.grandizarcustomerv2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.10.1] C:\Users\Sajib\.gradle\caches\transforms-3\1c04dad332f709826652ca3411164d6d\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.10.1] C:\Users\Sajib\.gradle\caches\transforms-3\1c04dad332f709826652ca3411164d6d\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:8:5-64:19
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.10.1] C:\Users\Sajib\.gradle\caches\transforms-3\1c04dad332f709826652ca3411164d6d\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:11:9-43
+39        android:label="GrandizarCustomerV2"
+39-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:9:9-44
+40        android:requestLegacyExternalStorage="true" >
+40-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:12:9-52
+41        <activity
+41-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:14:9-52:20
+42            android:name="com.mycompany.grandizarcustomerv2.MainActivity"
+42-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:15:13-41
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+43-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:19:13-163
+44            android:exported="true"
+44-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:16:13-36
+45            android:hardwareAccelerated="true"
+45-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:20:13-47
+46            android:launchMode="singleTop"
+46-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:17:13-43
+47            android:theme="@style/LaunchTheme"
+47-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:18:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:21:13-55
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+56-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:26:13-29:17
+57                android:name="io.flutter.embedding.android.NormalTheme"
+57-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:27:15-70
+58                android:resource="@style/NormalTheme" />
+58-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:28:15-52
+59            <!--
+60                 Displays an Android View that continues showing the launch screen
+61                 Drawable until Flutter paints its first frame, then this splash
+62                 screen fades out. A splash screen is useful to avoid any visual
+63                 gap between the end of Android's launch screen and the painting of
+64                 Flutter's first frame.
+65            -->
+66            <meta-data
+66-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:35:13-38:17
+67                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+67-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:36:15-79
+68                android:resource="@drawable/launch_background" />
+68-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:37:15-61
+69
+70            <intent-filter>
+70-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:39:13-42:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:40:17-68
+71-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:40:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:41:17-76
+73-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:41:27-74
+74            </intent-filter>
+75            <!-- Deep linking -->
+76            <meta-data
+76-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:44:13-90
+77                android:name="flutter_deeplinking_enabled"
+77-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:44:24-66
+78                android:value="true" />
+78-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:44:67-87
+79
+80            <intent-filter android:autoVerify="true" >
+80-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:45:13-50:29
+80-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:45:28-53
+81                <action android:name="android.intent.action.VIEW" />
+81-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:46:17-69
+81-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:46:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:47:17-76
+83-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:47:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:48:17-78
+84-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:48:27-75
+85
+86                <data
+86-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:49:17-101
+87                    android:host="grandizarcustomerv2.com"
+87-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:49:60-98
+88                    android:scheme="grandizarcustomerv2" />
+88-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:49:23-59
+89            </intent-filter>
+90        </activity>
+91
+92        <!--
+93             Don't delete the meta-data below.
+94             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+95        -->
+96        <meta-data
+96-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:56:9-58:33
+97            android:name="flutterEmbedding"
+97-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:57:13-44
+98            android:value="2" />
+98-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:58:13-30
+99        <meta-data
+99-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:59:9-61:70
+100            android:name="com.google.android.geo.API_KEY"
+100-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:60:13-58
+101            android:value="AIzaSyD9k1Ts1u3Z9v85olXLBe92XRv-BaxhcCM" />
+101-->C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\android\app\src\main\AndroidManifest.xml:61:13-68
+102
+103        <service
+103-->[:firebase_core] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[:firebase_core] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Sajib\.gradle\caches\transforms-3\994b358d37a1336d1ee4c420934efa96\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Sajib\.gradle\caches\transforms-3\994b358d37a1336d1ee4c420934efa96\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:35:13-37
+107            <meta-data
+107-->[:firebase_core] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+108-->[:firebase_core] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_core] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+110        </service>
+111        <service
+111-->[:geolocator_android] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
+112            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+112-->[:geolocator_android] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+113            android:enabled="true"
+113-->[:geolocator_android] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
+114            android:exported="false"
+114-->[:geolocator_android] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+115            android:foregroundServiceType="location" />
+115-->[:geolocator_android] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
+116        <service
+116-->[:location] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+117            android:name="com.lyokone.location.FlutterLocationService"
+117-->[:location] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+118            android:enabled="true"
+118-->[:location] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+119            android:exported="false"
+119-->[:location] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+120            android:foregroundServiceType="location" />
+120-->[:location] C:\Users\Sajib\Documents\GitHub\GrandizarCustomerApp\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+121
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\Sajib\.gradle\caches\transforms-3\8e90a33a8bfa288ae8b8bdc495fea55e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+123            android:name="androidx.window.extensions"
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\Sajib\.gradle\caches\transforms-3\8e90a33a8bfa288ae8b8bdc495fea55e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] C:\Users\Sajib\.gradle\caches\transforms-3\8e90a33a8bfa288ae8b8bdc495fea55e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+125        <uses-library
+125-->[androidx.window:window:1.0.0-beta04] C:\Users\Sajib\.gradle\caches\transforms-3\8e90a33a8bfa288ae8b8bdc495fea55e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+126            android:name="androidx.window.sidecar"
+126-->[androidx.window:window:1.0.0-beta04] C:\Users\Sajib\.gradle\caches\transforms-3\8e90a33a8bfa288ae8b8bdc495fea55e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+127            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+127-->[androidx.window:window:1.0.0-beta04] C:\Users\Sajib\.gradle\caches\transforms-3\8e90a33a8bfa288ae8b8bdc495fea55e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+128        <uses-library
+128-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+129            android:name="org.apache.http.legacy"
+129-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+130            android:required="false" />
+130-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\e12d2683d610c1831d044940bd6ab88a\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+131
+132        <provider
+132-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Sajib\.gradle\caches\transforms-3\994b358d37a1336d1ee4c420934efa96\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+133            android:name="com.google.firebase.provider.FirebaseInitProvider"
+133-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Sajib\.gradle\caches\transforms-3\994b358d37a1336d1ee4c420934efa96\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+134            android:authorities="com.mycompany.grandizarcustomerv2.firebaseinitprovider"
+134-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Sajib\.gradle\caches\transforms-3\994b358d37a1336d1ee4c420934efa96\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+135            android:directBootAware="true"
+135-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Sajib\.gradle\caches\transforms-3\994b358d37a1336d1ee4c420934efa96\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+136            android:exported="false"
+136-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Sajib\.gradle\caches\transforms-3\994b358d37a1336d1ee4c420934efa96\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+137            android:initOrder="100" />
+137-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Sajib\.gradle\caches\transforms-3\994b358d37a1336d1ee4c420934efa96\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+138
+139        <activity
+139-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\0ed7411974717f0995c090c5ef031b2b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+140            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+140-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\0ed7411974717f0995c090c5ef031b2b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\0ed7411974717f0995c090c5ef031b2b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+142-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\0ed7411974717f0995c090c5ef031b2b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+143
+144        <meta-data
+144-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\79226946a9258494830efafda5ed3ccd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+145            android:name="com.google.android.gms.version"
+145-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\79226946a9258494830efafda5ed3ccd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+146            android:value="@integer/google_play_services_version" />
+146-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sajib\.gradle\caches\transforms-3\79226946a9258494830efafda5ed3ccd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+147    </application>
+148
+149</manifest>

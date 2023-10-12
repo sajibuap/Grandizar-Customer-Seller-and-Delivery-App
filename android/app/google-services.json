@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "922761358583",
+    "project_id": "grandizar-customer",
+    "storage_bucket": "grandizar-customer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922761358583:android:4a803bcc0c330563c977f2",
+        "android_client_info": {
+          "package_name": "com.mycompany.grandizarcustomerv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922761358583-pmhpo13agh3ofr701jpagbhmkj7ogf9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.grandizarcustomerv2",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "922761358583-o17fjhibfmrko1tj631f4r6rvriltl12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArdQT61kV2orXPWnnPkTrGmmXmz3IQrY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922761358583-o17fjhibfmrko1tj631f4r6rvriltl12.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "922761358583-83ifejn0nd46frf2smq9j1tthtdrotid.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.grandizarcustomerv2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
